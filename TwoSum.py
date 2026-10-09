@@ -11,6 +11,6 @@ if __name__ == "__main__":
     solution = Solution()
     nums = list(map(int, input("Enter list: ").split()))
     target = int(input("Enter target: "))
-    print(solution.twoSum(nums, target))  # [0, 1]
+    print(solution.twoSum(nums, target))  
 
         
